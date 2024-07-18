@@ -9,7 +9,7 @@ on: pull_request
 jobs:
   call_workflow:
     name: Run PR Build Workflow
-    uses: ballerina-platform/ballerina-library/.github/workflows/s4hana-pr-template.yml@s4hana
+    uses: ballerina-platform/ballerina-library/.github/workflows/s4hana-pr-template.yml@main
     secrets: inherit
     with:
       hana-connector-group: sales
